@@ -29,7 +29,7 @@ function counter(state = 0, action) {
 // }
 
 
-const store = createStore(counter);
+const store = createStore(counter,100);
 
 let currentValue = store.getState();
 
